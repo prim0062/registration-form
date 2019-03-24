@@ -1,7 +1,23 @@
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.contact {
+body {
   background-color: #f2f2f2;
+}
+
+.form {
+  background-color: #fff;
+}
+
+legend {
+  padding-right: 1rem;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+@media only screen and (min-width: 60em) {
+
 }
