@@ -22,33 +22,35 @@
         <fieldset class="unit xs-1 s-1 m-1 l-1 push-0 pad-b-1-8">
           <legend class="unit italic mega push-3-4">Personal details</legend>
 
-          <!-- Name -->
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
-            <label for="name">Name</label>
-            <input id="name" name="name" required>
-          </div>
+          <div class="grid">
+            <!-- Name -->
+            <div class="med unit xs-1 s-1 m-1 l-1-2 push">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
 
-          <!-- Age -->
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
-            <label for="age">Age</label>
-            <input id="age" name="age" required>
-          </div>
+            <!-- Age -->
+            <div class="med unit xs-1 s-1 m-1 l-1-2 push">
+              <label for="age">Age</label>
+              <input id="age" name="age" required>
+            </div>
 
-          <!-- Email -->
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" required>
-          </div>
+            <!-- Email -->
+            <div class="med unit xs-1 s-1 m-1 l-1-2 push">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="Request to join the mission" required>
+            </div>
 
-          <!-- Fitness -->
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
-            <label for="fitness">Physical fitness</label>
-            <select id="fitness" name="_fitness">
-              <option>Super-human</option>
-              <option>Fit as a fiddle</option>
-              <option>Not terribly strong</option>
-              <option>A little couch-potato-y</option>
-            </select>
+            <!-- Fitness -->
+            <div class="med unit xs-1 s-1 m-1 l-1-2 push">
+              <label for="fitness">Physical fitness</label>
+              <select id="fitness" name="fitness">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
           </div>
 
           <!-- Address -->
@@ -66,6 +68,11 @@
             <label for="statement">Why do you want to go to Mars?</label>
             <textarea id="statement" name="statement" required></textarea>
           </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 push">
+            <input type="hidden" name="hidden" value="">
+          </div>
+
         </fieldset>
 
         <!-- Button -->
